@@ -1,0 +1,17 @@
+public class CadeiaCaracteres {
+//JAVA TUDO É CLASSE
+    public static void main(String args[]){
+        String nome = "João",
+            sobrenome = "Vitor";
+            String nomeCompleto = nome + sobrenome;
+            System.out.println("Nome Completo \n" + nomeCompleto);
+            System.out.println("Tamanho String:\n" + nomeCompleto.length());
+            System.out.println("Igual a JoãoVitor " + nomeCompleto
+            + nomeCompleto.equals("João mandela \n"));
+            System.out.println("Igual a João lindo: \n"
+            + nomeCompleto.equalsIgnoreCase("JoãoLindos: \n"));
+
+
+    }
+
+}
