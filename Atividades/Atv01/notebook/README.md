@@ -1,13 +1,6 @@
-# Atividade 2:
+# Atividade 1:
 
--->Crie uma classe em Java que realize cada uma das seguintes tarefas:
-
-a) Exibir a mensagem “Informe um inteiro: “, deixando o cursor na mesma linha;
-
-b) Atribuir o produto de variáveis b e c para a variável a;
-
-c) Utilizar um comentário para afirmar que um programa executa um cálculo de exemplo de folha de pagamento.
-
+-->Crie uma classe em Java que seja capaz de apresentar a soma de todos os argumentos inteiros ou reais recebidos. Argumentos inválidos devem ser desconsiderados sem provocar a exibição de erros ou exceções.
 
 Classe impressão de texto: "Main".     
 IFPR-Campus Cascavel.     
@@ -17,8 +10,6 @@ Professor: Nelson Bellincanta
 
 
 ## Código
-
-Crie uma classe em Java que seja capaz de apresentar a soma de todos os argumentos inteiros ou reais recebidos. Argumentos inválidos devem ser desconsiderados sem provocar a exibição de erros ou exceções.
 ```
 import java.util.Scanner; // importação do pacote Scanner
 
