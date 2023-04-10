@@ -13,6 +13,7 @@ Professor: Nelson Bellincanta
 ```
 import java.util.Scanner;
     
+    final static Scanner LER = new Scanner(System.in); 
     
     float nmr1 = 0f;
     float nmr2 = 0f;
