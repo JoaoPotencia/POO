@@ -30,4 +30,3 @@ import java.util.Scanner; // importação do pacote Scanner
 
     System.out.print("O resultado da soma é: " + result); // Mensagem para o usuário + junta a mensagem com o valor da variável
 ```
-
