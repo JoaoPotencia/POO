@@ -11,7 +11,35 @@ Professor: Nelson Bellincanta
 
 ## Código
 ```
+import javax.swing.JOptionPane;
 
+
+public class Atvd03{
+
+ 
+
+    public static void main(String[] args){
+
+        String aux;
+
+        float nota1, nota2 , notaTrabalho, media; //
+
+        aux = JOptionPane.showInputDialog("Informe a primeira nota: ");
+        nota1 = Float.parseFloat(aux);
+        
+        aux = JOptionPane.showInputDialog("Informe a segunda nota: ");
+        nota2 = Float.parseFloat(aux);
+
+        aux = JOptionPane.showInputDialog("Informe a nota do trabalho: ");
+        notaTrabalho = Float.parseFloat(aux);
+
+
+        media = (nota1 + nota2 + notaTrabalho)/3;
+        
+        JOptionPane.showMessageDialog(null,"Á media do aluno foi " + media);
+    }
+
+}
 ```
 
 
