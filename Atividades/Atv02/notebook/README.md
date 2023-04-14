@@ -18,28 +18,32 @@ Professor: Nelson Bellincanta
 
 ## Código
 
+```
 
-a) Exibir a mensagem “Informe um inteiro: “, deixando o cursor na mesma linha;
-```
- System.out.print("Informe um inteiro: ");//Mensagem para o usuário + junta a mensagem com o valor da variável
-```
-b) Atribuir o produto de variáveis b e c para a variável a;
-```
-//declarando variáveis
-int b = 7;
-int c = 4;
-int a = 0;
+import java.util.Scanner;// importação do pacote Scanner
 
-a = (b * c);//"a" recebe o produto de "b" vezes "c" e salva em a
-```
-c) Utilizar um comentário para afirmar que um programa executa um cálculo de exemplo de folha de pagamento.
-```
-//declarando variáveis
-int b = 7;
-int c = 4;
-int a = 0;
+public class Atvd02 {//Classe
 
-a = (b * c);//"a" recebe o produto de "b" vezes "c" e salva em a
+    static Scanner LER = new Scanner(System.in);//Mecanismo responsável por gerenciar as entradas do teclado e colocar nas variáveis
+    
+    //metodo principal
+    public static void main(String[] args){
+        
+        //declarando variáveis
+        int a = 0;
+        int b = 7;
+        int c = 4;
 
-System.out.println("-a- é: " + a);// Mensagem para o usuário + junta a mensagem com o valor da variável
+        a = (b * c);//"a" recebe o produto de "b" vezes "c" e salva em a
+
+
+        System.out.println("Informe um inteiro: "+ a);//Mensagem para o usuário + junta a mensagem com o valor da variável
+        
+        
+        System.out.println(": " + a);// Mensagem para o usuário + junta a mensagem com o valor da variável
+
+
+    }
+}
+
 ```
