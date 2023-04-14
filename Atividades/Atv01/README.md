@@ -11,22 +11,33 @@ Professor: Nelson Bellincanta
 
 ## Código
 ```
+import java.io.IOException;// importação do pacote IOException
 import java.util.Scanner; // importação do pacote Scanner
-    
-    final static Scanner LER = new Scanner(System.in); // Mecanismo responsável por gerenciar as entradas do teclado e colocar nas variáveis
-    
-    // Declaração das variáveis  
-    float nmr1 = 0f;
-    float nmr2 = 0f;
-    float result = 0f;
 
-    System.out.println("Digite o primeiro número: ");// Mensagem para o usuário
-    nmr1 = LER.nextFloat();// LER pega o próximo float do teclado para colocar na variável nmr1
-    
-    System.out.println("Digite o segundo número: ");
-    nmr2 = LER.nextFloat();
-    
-    result = nmr1 + nmr2; // guarda o resultado da soma nmr1 + nmr2 em result
+public class Atvd01 {//Classe
 
-    System.out.print("O resultado da soma é: " + result); // Mensagem para o usuário + junta a mensagem com o valor da variável
+    static Scanner LER = new Scanner(System.in);//Mecanismo responsável por gerenciar as entradas do teclado e colocar nas variáveis
+
+    //Cláusula throws permite um erro seja descatardo, mesmo que ele ocorra.
+    public static void main(String[] args) throws IOException{
+
+        //declarando variaveis
+        float nmr1 = 0f;
+        float nmr2 = 0f;
+        float result = 0f;
+
+
+        System.out.println("Digite o primeiro número: ");// Mensagem para o usuário
+        nmr1 = LER.nextFloat();// LER pega o próximo float do teclado para colocar na variável nmr1
+        
+        System.out.println("Digite o segundo número: ");
+        nmr2 = LER.nextFloat();
+        
+        result = nmr1 + nmr2; // guarda o resultado da soma nmr1 + nmr2 em result
+
+        System.out.print("O resultado da soma é: " + result); // Mensagem para o usuário + junta a mensagem com o valor da variável
+
+    }
+    
+}
 ```
