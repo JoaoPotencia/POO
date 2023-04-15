@@ -18,19 +18,23 @@ Professor: Nelson Bellincanta
 
 ## Código
 ```
-public class BalancoTrimestral{
+public class BalancoTrimestral{//Classe do programa
    
-    public static void main(String[] args){
-
+   // método principal do programa
+   public static void main(String[] args){
+        
+        //declarando variaveis
         int GastosJaneiro = 30000;
        
         int GastosFevereiro =33000;
         
         int GastosMarço = 23999;
 
+        //calculo para saber quanto gastou no trimestre e essa operação salvando em gastosTrimestre
         int gastosTrimestre =  GastosJaneiro + GastosFevereiro + GastosMarço;
 
-        System.out.println("Total dos gastos no Trimestre:  "+ gastosTrimestre);
+        //
+        System.out.println("Total dos gastos no Trimestre:  "+ gastosTrimestre);//Imprimindo o gastoTrimestral
 
     }
 
