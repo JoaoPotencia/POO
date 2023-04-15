@@ -18,5 +18,22 @@ Professor: Nelson Bellincanta
 
 ## Código
 ```
+public class BalancoTrimestral{
+   
+    public static void main(String[] args){
 
+        int GastosJaneiro = 30000;
+       
+        int GastosFevereiro =33000;
+        
+        int GastosMarço = 23999;
+
+        int gastosTrimestre =  GastosJaneiro + GastosFevereiro + GastosMarço;
+
+        System.out.println("Total dos gastos no Trimestre:  "+ gastosTrimestre);
+
+    }
+
+
+}
 ```
