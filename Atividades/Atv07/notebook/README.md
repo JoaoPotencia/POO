@@ -12,9 +12,10 @@ Professor: Nelson Bellincanta
 ## Código
 ´´
 //importando bibliotecas
+
 import java.lang.reflect.Array;
 
-import java.util.Arrays;\n
+import java.util.Arrays;
 
 import javax.swing.JOptionPane;
 
