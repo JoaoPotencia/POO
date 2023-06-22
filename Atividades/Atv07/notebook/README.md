@@ -16,9 +16,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
 
-/**
- * PrimeiroPrograma
- */
+
 public class PrimeiroPrograma {
 
     //metodo principal
