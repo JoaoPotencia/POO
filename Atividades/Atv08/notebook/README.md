@@ -1,4 +1,4 @@
-# Atividade 6:
+# Atividade 8:
 
 -->Uma pequena companhia aérea acabou de comprar um computador para seu novo sistema automatizado de reservas. Você foi solicitado a desenvolver o novo sistema. Você escreverá um aplicativo para atribuir assentos em cada voo da companhia aérea (capacidade: 10 assentos).
 O sistema deve exibir as seguintes alternativas: 
