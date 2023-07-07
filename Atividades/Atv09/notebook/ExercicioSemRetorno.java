@@ -1,6 +1,6 @@
 public class ExercicioSemRetorno{ // Classe do programa
     
-   // Declarando o método para execução do programa
+   // Declarando o método main para execução do programa
    public static void main(String[] args) {
        
     //Alocacando e declarando, e inicializando a "array" 
