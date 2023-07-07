@@ -1,4 +1,4 @@
-public class ExercicioSemRetorno{
+public class ExercicioSemRetorno{ // Classe do programa
     
    // Declarando o método para execução do programa
    public static void main(String[] args) {
