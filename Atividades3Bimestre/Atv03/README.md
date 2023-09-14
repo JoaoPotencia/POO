@@ -1,4 +1,8 @@
-IFPR - Campus Cascavel Disciplina: Programação orientada a Objetos Professor: Nelson Bellincanta Aluno: João Vitor Santos Raimondi
+IFPR - Campus Cascavel Disciplina: Programação orientada a Objetos 
+
+Professor: Nelson Bellincanta 
+
+Aluno: João Vitor Santos Raimondi
 
 Suponha que você está desenvolvendo um sistema de gerenciamento de veículos para uma concessionária. Você precisa modelar diferentes tipos de veículos, como carros e motos, e também precisa implementar funcionalidades específicas para cada tipo de veículo.
 
